@@ -1,0 +1,341 @@
+{
+    // Flutter & Dart Settings
+    "dart.flutterSdkPath": null,
+    "dart.sdkPath": null,
+    "dart.checkForSdkUpdates": true,
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.evaluateGettersInDebugViews": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.flutterCreateAndroidLanguage": "kotlin",
+    "dart.flutterCreateIOSLanguage": "swift",
+    "dart.flutterCreateOrganization": "com.omnireader.app",
+    "dart.flutterHotReloadOnSave": "always",
+    "dart.flutterHotRestartOnSave": "never",
+    "dart.insertArgumentPlaceholders": true,
+    "dart.lineLength": 120,
+    "dart.runPubGetOnPubspecChanges": "always",
+    "dart.warnWhenEditingFilesOutsideWorkspace": true,
+    "dart.showTodos": true,
+    "dart.analysisServerFolding": true,
+    "dart.enableCompletionCommitCharacters": true,
+    "dart.enableSnippets": true,
+    "dart.includeDependenciesInWorkspaceSymbols": true,
+
+    // Editor Settings
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.trimAutoWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+
+    // File Settings
+    "files.associations": {
+        "*.dart": "dart",
+        "*.yaml": "yaml",
+        "*.yml": "yaml",
+        "*.json": "jsonc",
+        "*.md": "markdown",
+        "*.gradle": "groovy",
+        "*.xml": "xml",
+        "*.plist": "xml",
+        "*.arb": "json"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.dart_tool": true,
+        "**/build": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/.packages": true,
+        "**/.pub-cache": true,
+        "**/.pub": true,
+        "**/ios/Pods": true,
+        "**/ios/.symlinks": true,
+        "**/android/.gradle": true,
+        "**/android/captures": true,
+        "**/android/gradlew": true,
+        "**/android/gradlew.bat": true,
+        "**/android/local.properties": true,
+        "**/android/**/GeneratedPluginRegistrant.java": true,
+        "**/android/key.properties": true,
+        "**/.vscode/launch.json": false
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.dart_tool/**": true,
+        "**/build/**": true,
+        "**/ios/Pods/**": true,
+        "**/android/.gradle/**": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+
+    // Search Settings
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/.dart_tool": true,
+        "**/build": true,
+        "**/ios/Pods": true,
+        "**/android/.gradle": true,
+        "**/.pub-cache": true
+    },
+    "search.useIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true,
+
+    // Git Settings
+    "git.ignoreLimitWarning": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.postCommitCommand": "none",
+
+    // Terminal Settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "terminal.integrated.env.osx": {
+        "PATH": "/usr/local/bin:${env:PATH}"
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "/usr/local/bin:${env:PATH}"
+    },
+
+    // Extension Settings
+    "extensions.ignoreRecommendations": false,
+
+    // Language Specific Settings
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[gradle]": {
+        "editor.defaultFormatter": "naco-siren.gradle-language"
+    },
+
+    // Emmet Settings
+    "emmet.includeLanguages": {
+        "dart": "html"
+    },
+    "emmet.triggerExpansionOnTab": false,
+
+    // IntelliSense Settings
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.autoImports": true,
+
+    // Debugging Settings
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": "auto",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.showInlineBreakpointCandidates": true,
+
+    // Problems Settings
+    "problems.decorations.enabled": true,
+    "problems.showCurrentInStatus": true,
+
+    // Breadcrumbs Settings
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.showBooleans": true,
+    "breadcrumbs.showClasses": true,
+    "breadcrumbs.showConstants": true,
+    "breadcrumbs.showConstructors": true,
+    "breadcrumbs.showEnums": true,
+    "breadcrumbs.showEvents": true,
+    "breadcrumbs.showFields": true,
+    "breadcrumbs.showFiles": true,
+    "breadcrumbs.showFunctions": true,
+    "breadcrumbs.showInterfaces": true,
+    "breadcrumbs.showKeys": true,
+    "breadcrumbs.showMethods": true,
+    "breadcrumbs.showModules": true,
+    "breadcrumbs.showNamespaces": true,
+    "breadcrumbs.showNull": true,
+    "breadcrumbs.showNumbers": true,
+    "breadcrumbs.showObjects": true,
+    "breadcrumbs.showOperators": true,
+    "breadcrumbs.showPackages": true,
+    "breadcrumbs.showProperties": true,
+    "breadcrumbs.showStrings": true,
+    "breadcrumbs.showStructs": true,
+    "breadcrumbs.showTypeParameters": true,
+    "breadcrumbs.showVariables": true,
+
+    // Workbench Settings
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.tips.enabled": true,
+
+    // Explorer Settings
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.openEditors.visible": 0,
+    "explorer.sortOrder": "type",
+
+    // Todo Tree Settings (if extension is installed)
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\*|\\+))\\s*($TAGS)",
+
+    // Better Comments Settings (if extension is installed)
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": false,
+
+    // Error Lens Settings (if extension is installed)
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info"
+    ],
+    "errorLens.excludeBySource": [
+        "cSpell"
+    ],
+
+    // GitLens Settings (if extension is installed)
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+
+    // Bracket Pair Colorizer Settings (deprecated, using built-in)
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+    // Auto Rename Tag Settings (if extension is installed)
+    "auto-rename-tag.activationOnLanguage": [
+        "xml",
+        "html"
+    ],
+
+    // Path Intellisense Settings (if extension is installed)
+    "path-intellisense.mappings": {
+        "/": "${workspaceRoot}",
+        "lib/": "${workspaceRoot}/lib",
+        "assets/": "${workspaceRoot}/assets"
+    },
+
+    // Material Icon Theme Settings (if extension is installed)
+    "material-icon-theme.folders.associations": {
+        "models": "class",
+        "services": "tools",
+        "providers": "controller",
+        "repositories": "database",
+        "widgets": "components",
+        "screens": "views",
+        "utils": "helper",
+        "constants": "config"
+    },
+    "material-icon-theme.files.associations": {
+        "pubspec.yaml": "flutter",
+        "analysis_options.yaml": "dart",
+        "*.dart": "dart"
+    },
+
+    // Flutter Intl Settings (if extension is installed)
+    "flutter-intl.localizationFileName": "app_localizations",
+    "flutter-intl.localeDirectory": "lib/l10n",
+
+    // Dart Data Class Generator Settings (if extension is installed)
+    "dart-data-class-generator.constructor.enabled": true,
+    "dart-data-class-generator.constructor.required": true,
+    "dart-data-class-generator.copyWith.enabled": true,
+    "dart-data-class-generator.equality.enabled": true,
+    "dart-data-class-generator.toString.enabled": true,
+    "dart-data-class-generator.serialization.enabled": true,
+
+    // Awesome Flutter Snippets Settings (if extension is installed)
+    "awesome-flutter-snippets.nestCounterApp": false,
+
+    // Flutter Tree Settings (if extension is installed)
+    "flutterTree.openFile": true,
+
+    // Pubspec Assist Settings (if extension is installed)
+    "pubspecAssist.sorted": true,
+
+    // Flutter Coverage Settings (if extension is installed)
+    "flutter-coverage.coverageFileNames": [
+        "lcov.info",
+        "coverage.lcov"
+    ],
+
+    // Custom Settings for OmniReader
+    "omnireader.autoSave": true,
+    "omnireader.debugMode": true,
+    "omnireader.showPerformanceOverlay": false,
+    "omnireader.enableHotReload": true,
+    "omnireader.targetPlatform": "android"
+}
