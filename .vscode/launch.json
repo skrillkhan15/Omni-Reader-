@@ -1,0 +1,133 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "OmniReader (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "development"
+            ],
+            "env": {
+                "FLUTTER_MODE": "debug"
+            },
+            "console": "debugConsole",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "OmniReader (Profile)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "development"
+            ],
+            "env": {
+                "FLUTTER_MODE": "profile"
+            },
+            "console": "debugConsole",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "OmniReader (Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "production"
+            ],
+            "env": {
+                "FLUTTER_MODE": "release"
+            },
+            "console": "debugConsole",
+            "flutterMode": "release"
+        },
+        {
+            "name": "OmniReader (Integration Tests)",
+            "request": "launch",
+            "type": "dart",
+            "program": "integration_test/app_test.dart",
+            "args": [
+                "--flavor",
+                "development"
+            ],
+            "env": {
+                "FLUTTER_MODE": "debug"
+            },
+            "console": "debugConsole",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "OmniReader (Widget Tests)",
+            "request": "launch",
+            "type": "dart",
+            "program": "test/widget_test.dart",
+            "console": "debugConsole"
+        },
+        {
+            "name": "OmniReader (Unit Tests)",
+            "request": "launch",
+            "type": "dart",
+            "program": "test/unit_test.dart",
+            "console": "debugConsole"
+        },
+        {
+            "name": "OmniReader (Custom Device)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "deviceId": "${input:deviceId}",
+            "args": [
+                "--flavor",
+                "development",
+                "--dart-define=API_BASE_URL=http://localhost:3000"
+            ],
+            "env": {
+                "FLUTTER_MODE": "debug"
+            },
+            "console": "debugConsole",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "OmniReader (Hot Restart)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "development"
+            ],
+            "env": {
+                "FLUTTER_MODE": "debug"
+            },
+            "console": "debugConsole",
+            "flutterMode": "debug",
+            "enableAsserts": true,
+            "debugExternalPackageLibraries": true,
+            "debugMyCode": true
+        }
+    ],
+    "inputs": [
+        {
+            "id": "deviceId",
+            "description": "Select device ID",
+            "type": "command",
+            "command": "flutter.selectDevice"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "OmniReader (All Tests)",
+            "configurations": [
+                "OmniReader (Unit Tests)",
+                "OmniReader (Widget Tests)",
+                "OmniReader (Integration Tests)"
+            ]
+        }
+    ]
+}
+
